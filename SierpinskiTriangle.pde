@@ -10,7 +10,7 @@ int c = 400;
 public void mousePressed()//optional
 {
   c = c/2;
-  if (c == 1) {
+  if (c <= 5) {
     c = 400;
   }
 }
